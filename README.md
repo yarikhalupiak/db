@@ -2,7 +2,7 @@
 
 This is site based on test DB, to run some example SQL queries.
 
-Based on [test\_db](https://github.com/datacharmer/test_db).
+
 
 ## How to use
 
