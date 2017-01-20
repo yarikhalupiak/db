@@ -236,28 +236,7 @@ That's it for now. Hope this example is useful :)
 	LIMIT 20;
 	```
 
-## How to install
 
-1. Clone the repo somewhere on your disk.
-
-	```shell
-	$ git clone https://github.com/lionell/labs.git
-	```
-2. If you have LAMP server running on you machine, just copy the site directory to your serving
-	directory
-
-	```shell
-	$ cp labs/db /path/to/your/serving/directory
-	```
-3. Otherwise you can use Docker LAMP images to host site.
-
-	```shell
-	$ docker run -p 8000:80 -p 2200:22 -p 3306:3306 -v $(pwd)/labs/db:/var/www/html:rw dockie/lamp
-	```
-
-	Now it should be availabel at `localhost:8000`
-
-	See Dockerfile here: https://github.com/RobLoach/Dockie/tree/master/lamp
 
 ## DISCLAIMER
 
