@@ -12,7 +12,7 @@ Site is divided into *two different parts* as tables, queries.
 
 Here is DB scheme:
 
-![scheme](readme/scheme.png)
+![sheme](readme/scheme.png)
 
 You are able to view content of particular table, insert new data into it, update
 existing data or delete it.
